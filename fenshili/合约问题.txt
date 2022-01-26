@@ -1,0 +1,14 @@
+1 合约开发指南是一个基础的说明，实现之前电影合约有哪些是必须要实现的接口？
+2 支付在那里完成?有没有完整的和合约之间联系的架构图。
+3 通用token的实现问题？
+4 schema存储方案中，数组最大为1024，string最长为2048，对map没有限制吗？ 保存数据记录比较大的情况下，map是否是合适的？
+5 文档中有句话，调用合约方法时都会构造一个新的合约实例，帮解释下。
+6 getAuthMap () 获取账号权限列表，能否具体解释下这个接口.
+6 部署和调用合约SDK无法下载,具体地址https://yuque.antfin-inc.com/antchain/fhmmv8/tw433o
+7 myclang和mydebug工具无法下载ftp://mychainft.inc.alipay.net/mycdt/release-0.10.2.15_debug/MYCDT-release-0.10.2.15_debug-Darwin-x86_64.tar.gz
+
+
+
+会议：
+
+ 

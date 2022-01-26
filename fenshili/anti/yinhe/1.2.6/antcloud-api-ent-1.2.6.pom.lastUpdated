@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 20 13:57:16 CST 2020
+http\://mvn.dev.alipay.net\:8080/artifactory/repo/.lastUpdated=1603173436591
+http\://mvn.test.alipay.net\:8080/artifactory/repo/.error=
+http\://mvn.test.alipay.net\:8080/artifactory/repo/.lastUpdated=1603173436524

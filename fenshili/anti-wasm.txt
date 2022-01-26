@@ -1,0 +1,41 @@
+
+1  调用合约方法时都会构造一个新的合约实例
+
+2 accounts:[Account]](map:"v2")
+
+表示该字段为map,v2为该类型的版本号
+
+3 paccount.reset()  # 调用智能指针的reset()后，paccount管理的Account对象'btc'生命周期结束，若对象修改过，对象析构时自动保存
+
+ porder 为什么在reset后，是否会有问题
+
+4 schema存储方案中，数组最大为1024，string最长为2048
+
+ 对map没有限制吗？
+
+ 保存数据记录比较大的情况下，map是否是合适的？
+
+
+
+5 调用合约CallContract 函数的返回值，code 如果被调用合约没有异常终止，则为0，否则为1。 msg: 异常时返回的信息,Type result,如果没有异常，返回被调用合约的返回信息
+
+6 getAuthMap () 获取账号权限列表
+
+7 GetRecorverKey 获取指定账号的恢复公钥
+
+8 Log函数打印数据不能超过1M
+
+9 GetRelatedTransactionListSize 指定账户的存证关联交易数量
+
+10 Ecrecovery 根据hash和签名恢复identity
+
+11 Tee版本和非Tee版本的区别？
+
+12 合约开发指南是一个基础的说明，咱们合约有哪些是必须要实现的接口,合约必须实现的接口有哪些？
+
+13 通用token的实现问题？
+
+14 支付在那里完成?
+
+15 部署和调用合约无法下载,https://yuque.antfin-inc.com/antchain/fhmmv8/tw433o
+ 
